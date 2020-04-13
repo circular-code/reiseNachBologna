@@ -1,0 +1,53 @@
+#resolveTarget {
+    display: none;
+}
+
+img {
+    display: inline-block;
+    width: 500px;
+}
+
+#jauch {
+    max-width: 1000px;
+    width: 1000px;
+}
+
+body {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+}
+
+p {
+    max-width: 800px;
+    margin: 2rem auto;
+}
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+button {
+    width: 300px;
+    padding: 2rem;
+    font-size: 2rem;
+    font-weight: bold;
+    background: #4e7b91;
+    border: none;
+    color: white;
+    border-radius: 63px;
+    outline: none;
+    margin: 2rem;
+    transition: background-color 0.5s ease-in-out, color 0.5s ease-in-out, box-shadow 0.5s ease-in-out, border 0.5s ease-in-out;
+    box-shadow: none;
+}
+
+button:hover {
+    background: white;
+    color: #4e7b91;
+    border: 2px solid #4e7b91;
+    cursor: pointer;
+    box-shadow: 5px 5px 5px 5px rgba(0,0,0,0.2);
+}
